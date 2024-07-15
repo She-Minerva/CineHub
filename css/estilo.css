@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color:rgb(81, 0, 157);
+}
+
+/* Adicione esta seção para o efeito de hover */
+h1:hover {
+    color: #ffffffe3; /* Cor roxo claro ao passar o mouse */
+}
+
+.img-fluid {
+    width: 255px; /* Defina a largura desejada */
+    height: 350px; /* Defina a altura desejada */
+    object-fit: cover; /* Mantém a proporção da imagem e preenche o contêiner */
+    cursor: pointer; /* Adiciona a mãozinha do clique ao passar o mouse */
+    
+}
+
+.cor1 {
+    background-color: rgb(70, 0, 135);
+}
+
+/* Estilo para os links do navbar */
+.navbar .navbar-nav .nav-link {
+    color: #ffffff; /* Definição da cor do texto como branco */
+}
+
+.navbar .navbar-brand {
+    color: #ffffff; /* Definição da cor do texto da marca como branco */
+}
+
+/* Estilo para o link ativo */
+.navbar .navbar-nav .nav-link.active {
+    color: #ffffff; /* Definição da cor do texto do link ativo como branco */
+}
+
+/* Estilo para o link ao passar o mouse */
+.navbar .navbar-nav .nav-link:hover {
+    color: #dcdcdc; /* Definição de uma cor clara ao passar o mouse, opcional */
+}
+
+.search-input {
+    width: 220px;
+}
+
+/* Adicione esta seção para personalizar o botão "Buscar" */
+.btn-custom {
+    background-color: #ffffff; /* Define o fundo branco */
+    color: rgb(70, 0, 135); /* Define a cor do texto */
+    border: 1px solid rgb(70, 0, 135); /* Adiciona uma borda roxa */
+}
+.carousel-item img {
+    height: auto; /* Mantém a altura original da imagem */
+    width: 100%; /* Ajusta a largura para ocupar 100% do container */
+}
